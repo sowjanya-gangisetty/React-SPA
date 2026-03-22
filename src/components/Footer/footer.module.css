@@ -1,0 +1,11 @@
+.footer{
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+}
+@media screen and (max-width:768px) {
+    .footer p{
+        font-size: 1.1rem;
+    }
+}

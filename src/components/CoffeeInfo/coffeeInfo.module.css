@@ -1,0 +1,110 @@
+.coffeeContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 40px auto;
+    color: black;
+}
+.banner{
+    background-image: url('../../assets/images/banner.jpg');
+    min-height: 500px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 48px;
+}
+.bannerTilte{
+    font-size: 3.3rem;
+    font-weight: 900;
+    align-self: center;
+    color: #2E2118;
+    font-family: "Special Elite", system-ui;
+}
+
+.coffeeType {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.coffeeImg img{
+    height: 250px;
+    width: 90%;
+    border-radius: 12px;
+}
+
+.coffeeTitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    margin: 0 0 6px;
+}
+
+.coffeeDescription {
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.process {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.steps {
+    padding-left: 16px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.funFact {
+    border-top: 1px solid #ebebeb;
+    padding-top: 12px;
+    margin-top: auto;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        min-height: 280px;           
+        padding: 24px;
+        background-attachment: scroll; 
+    }
+    .bannerTilte {
+        font-size: 2rem;
+    }
+    .coffeeContainer {
+        grid-template-columns: 1fr; 
+        margin: 20px 12px;
+        font-size: 1.2rem;
+    }
+    .coffeeImg img {
+        height: 200px;
+        width: 100%;
+    }
+    .coffeeTitle {
+        font-size: 1.2rem;
+    }
+    .coffeeDescription,
+    .steps,
+    .funFact {
+        font-size: 1rem;
+    }
+}

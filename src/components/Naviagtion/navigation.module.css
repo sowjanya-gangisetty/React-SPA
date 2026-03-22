@@ -1,0 +1,42 @@
+.nav {
+    background-color: #2E2118;
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    justify-content: space-evenly;
+    font-size: "Montserrat", sans-serif;
+}
+
+.navItem {
+    border: 1px solid snow;
+    border-radius: 10px;
+    color: snow;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItem:hover{
+    background-color: #F5E6C8;
+    transform: translateY(-2px);
+    color: black;
+}
+.active {
+    background-color: #F5E6C8;
+    color: #2E2118;
+    font-weight: 700;
+    border-color: #F5E6C8;
+}
+
+@media screen and (max-width: 769px) {
+    .nav {
+        gap: 10px;
+        padding: 10px 8px;
+        flex-wrap: wrap;          
+        justify-content: center;
+    }
+    .navItem {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+}

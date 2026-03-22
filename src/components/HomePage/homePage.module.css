@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Macondo&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Spray+Paint&family=Story+Script&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&family=Titan+One&display=swap');
+
+.mainCategory {
+    display: flex;
+    flex-direction: row;       
+    height: 80vh;
+    gap: 0;
+}
+
+.coffee, .tea {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;              
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+}
+.coffee { background-image: url('../../assets/images/coffeeBanner.jpg'); }
+.tea    { background-image: url('../../assets/images/teaBanner.jpg'); }
+
+
+.coffee::before, .tea::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.title {
+    font-size: 2.6rem;
+    font-family: "Macondo", cursive;
+    font-weight: 500;
+    color: white;
+    position: relative;         
+    z-index: 1;
+}
+
+.chooseBtn {
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(255,255,255,0.15);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    transition: background 0.2s, color 0.2s;
+}
+
+.chooseBtn:hover {
+    background: white;
+    color: #2E2118;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .mainCategory { 
+        flex-direction: column; 
+        height: auto;
+    }
+    .coffee, .tea {
+        min-height: 45vh;        
+        gap: 12px;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .chooseBtn {
+        font-size: 0.9rem;
+        padding: 8px 22px;
+    }
+}
