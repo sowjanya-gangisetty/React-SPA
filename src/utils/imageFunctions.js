@@ -1,3 +1,3 @@
-export const getImageURL = imageParameter => { 
+export const getImageURL = imageParameter => {
     return new URL(`../assets/images/${imageParameter}`, import.meta.url).href
 }
