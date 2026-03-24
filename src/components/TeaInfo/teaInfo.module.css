@@ -23,13 +23,13 @@
 }
 
 .teaName {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin: 0 0 6px;
 }
 
 .teaDescription {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0 0 14px;
 }
 
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     gap: 8px;
-    font-size: 1.1rem;
+    font-size: 1.2em;
     font-style: italic;
 }
 
@@ -48,14 +48,13 @@
         padding: 16px 12px;      
     }
     .teaName {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .teaDescription {
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-bottom: 10px;
     }
     .benefits {
-        font-size: 1rem;
         flex-direction: row;     
     }
 }

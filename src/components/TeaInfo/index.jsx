@@ -1,5 +1,5 @@
 import styles from './teaInfo.module.css'
-import { teaData } from '../../data/data'
+import {teaData} from '../../data/data'
 
 const TeaInfo = () => {
     return (
