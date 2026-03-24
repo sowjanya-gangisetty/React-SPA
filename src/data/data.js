@@ -36,7 +36,7 @@ export const coffeeData = [
     "Pour in Irish whiskey",
     "Gently float whipped cream on top",
     "Do not stir—drink through the cream",
-    "Top with a sprinkle of nutmeg, cinnamon, or chocolate powder (optional)"
+    "Top with a sprinkle of nutmeg"
   ],
   funFact: "Irish Coffee was invented to warm up passengers at an airport in Ireland.",
   image : "Irishcoffee.jpg"
@@ -52,7 +52,7 @@ export const coffeeData = [
       "Pour equal parts espresso, steamed milk, and foam",
       "Optional: add cocoa powder or cinnamon on top"
     ],
-    funFact: "A traditional cappuccino is about 150–180 ml in size.",
+    funFact: "A traditional cappuccino is about 150-180 ml in size.",
     image : "cappuccino.jpg"
   },
   {
@@ -89,7 +89,7 @@ export const coffeeData = [
       "Brew a shot of espresso",
       "Mix in chocolate syrup or cocoa powder",
       "Add steamed milk",
-      "Top with whipped cream (optional)"
+      "Top with whipped cream"
     ],
     funFact: "Mocha combines coffee and chocolate—two of the world’s favorite flavors.",
     image : "mocha.jpg"
