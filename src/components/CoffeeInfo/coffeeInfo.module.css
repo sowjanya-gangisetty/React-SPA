@@ -7,7 +7,8 @@
     margin: 40px auto;
     color: black;
 }
-.banner{
+
+.banner {
     background-image: url('../../assets/images/banner.jpg');
     min-height: 500px;
     width: auto;
@@ -19,7 +20,8 @@
     align-items: flex-end;
     padding: 48px;
 }
-.bannerTilte{
+
+.bannerTilte {
     font-size: 3.3rem;
     font-weight: 900;
     align-self: center;
@@ -36,19 +38,21 @@
     flex-direction: column;
     gap: 14px;
 }
-.coffeeImg{
+
+.coffeeImg {
     background-color: saddlebrown;
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 20px;
 }
-.coffeeImg img{
+
+.coffeeImg img {
+    border-radius: 20px;
     width: 80%;
-    border-radius: 20px; 
     height: 220px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .coffeeTitle {
@@ -92,15 +96,17 @@
 
 @media (max-width: 768px) {
     .banner {
-        min-height: 280px;           
+        min-height: 280px;
         padding: 24px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
+
     .bannerTilte {
         font-size: 2rem;
     }
+
     .coffeeContainer {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
     .coffeeDescription,
     .steps,
