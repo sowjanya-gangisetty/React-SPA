@@ -7,7 +7,8 @@
     margin: 40px auto;
     color: black;
 }
-.banner{
+
+.banner {
     background-image: url('../../assets/images/banner.jpg');
     min-height: 500px;
     width: auto;
@@ -19,7 +20,8 @@
     align-items: flex-end;
     padding: 48px;
 }
-.bannerTilte{
+
+.bannerTilte {
     font-size: 3.3rem;
     font-weight: 900;
     align-self: center;
@@ -36,19 +38,20 @@
     flex-direction: column;
     gap: 14px;
 }
-.coffeeImg{
-    background-color: saddlebrown;
+
+.coffeeImg {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 20px;
-    
+
 }
-.coffeeImg img{
-    
-    width: 70%;
+
+.coffeeImg img {
+
+    width: 80%;
     border-radius: 12px;
-    
+
 }
 
 .coffeeTitle {
@@ -68,7 +71,7 @@
     background-color: #f9f9f9;
     border-radius: 8px;
     padding: 12px;
-    
+
 }
 
 .steps {
@@ -93,22 +96,25 @@
 
 @media (max-width: 768px) {
     .banner {
-        min-height: 280px;           
+        min-height: 280px;
         padding: 24px;
-        background-attachment: scroll; 
+        background-attachment: scroll;
     }
+
     .bannerTilte {
         font-size: 2rem;
     }
+
     .coffeeContainer {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         margin: 20px 12px;
         font-size: 1.2rem;
     }
-    
+
     .coffeeTitle {
         font-size: 1.4rem;
     }
+
     .coffeeDescription,
     .steps,
     .funFact {
