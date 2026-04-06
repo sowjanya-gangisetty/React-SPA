@@ -91,7 +91,7 @@ export const coffeeData = [
       "Add steamed milk",
       "Top with whipped cream"
     ],
-    funFact: "Mocha combines coffee and chocolate—two of the world’s favorite flavors.",
+    funFact: "Mocha combines coffee and chocolate—two of the world's favorite flavors.",
     image : "mocha.jpg"
   },
   {
