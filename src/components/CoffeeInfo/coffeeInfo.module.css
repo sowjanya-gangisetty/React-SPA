@@ -50,8 +50,8 @@
 .coffeeImg img {
     border-radius: 10px;
     object-fit: contain;
-    height: 220px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
 }
 
 .coffeeTitle {
