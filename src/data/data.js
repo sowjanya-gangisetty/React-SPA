@@ -53,7 +53,7 @@ export const coffeeData = [
       "Optional: add cocoa powder or cinnamon on top"
     ],
     funFact: "A traditional cappuccino is about 150-180 ml in size.",
-    image : "cappuccino.jpg"
+    image : "cappuccino.png"
   },
   {
     id: 5,
