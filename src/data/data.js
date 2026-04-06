@@ -112,8 +112,7 @@ export const coffeeData = [
     name: "Dalgona Coffee",
     description: "A whipped coffee drink served over milk.",
     process: [
-      "Mix instant coffee, sugar, and hot water",
-      "Whip until thick and creamy",
+      "Mix instant coffee, sugar, hot water, whip until thick & creamy",
       "Pour milk into a glass",
       "Spoon whipped coffee on top"
     ],
@@ -140,7 +139,7 @@ export const coffeeData = [
       "Brew a shot of espresso",
       "Add hot water (usually double the amount of espresso)",
     ],
-    funFact: "The Americano was popularized during World War II by American soldiers.",
+    funFact: "The Americano was popularized during World War II.",
     image : "americano.jpg"
   },
   {
