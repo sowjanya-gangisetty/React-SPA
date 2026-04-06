@@ -36,10 +36,19 @@
     flex-direction: column;
     gap: 14px;
 }
+.coffeeImg{
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 20px;
+    
+}
 .coffeeImg img{
-    height: 250px;
-    width: 90%;
+    
+    width: 70%;
     border-radius: 12px;
+    
 }
 
 .coffeeTitle {
@@ -96,10 +105,7 @@
         margin: 20px 12px;
         font-size: 1.2rem;
     }
-    .coffeeImg img {
-        height: 200px;
-        width: 100%;
-    }
+    
     .coffeeTitle {
         font-size: 1.4rem;
     }
